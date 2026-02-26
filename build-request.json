@@ -1,0 +1,91 @@
+{
+  "kind": "build_request",
+  "title": "Upgrade to advanced professional website with second phone number and enhanced design",
+  "projectName": "RK Day 2 Day Facilitys",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "text": "Add the second phone number '7358440081' alongside the existing '99624 42558' in the Contact section and Footer. Both numbers must be displayed as tappable tel: links on mobile devices.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "call 99624 42558, 7358440081"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Both phone numbers '99624 42558' and '7358440081' are visible in the Contact section.",
+        "Both numbers are rendered as <a href='tel:...'> links so they initiate a call on mobile.",
+        "Both numbers are also visible in the Footer.",
+        "Existing design and layout are not broken by adding the second number."
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Redesign the website to an advanced, premium-quality professional level. Enhancements should include: a richer hero section with animated text or subtle motion effects, an enhanced services section with detailed feature bullet lists and a call-to-action per service card, a 'Why Choose Us' or trust-building section highlighting reliability, experience, and quality guarantees, improved typography hierarchy using the existing font configuration, polished hover and transition animations throughout, and a more visually compelling overall layout while preserving the teal/cream brand palette.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Create a professional advance website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section includes animated or visually engaging text/motion effects.",
+        "Each service card displays a bullet list of features and a contact/CTA link.",
+        "A new trust/why-choose-us section is added between Services and Contact.",
+        "All interactive elements (buttons, cards, nav links) have smooth hover and transition animations.",
+        "Typography hierarchy is clear with distinct heading, subheading, and body styles.",
+        "The teal and cream brand palette is preserved and consistently applied.",
+        "The page remains fully responsive on mobile and desktop viewports."
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Update the hero background image to a more vivid, high-quality professional cleaning environment scene that better reflects a premium brand, and generate a 'Why Choose Us' section background image with a subtle, clean texture or abstract light pattern.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Create a professional advance website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The hero background image is replaced with the new premium version.",
+        "A background image is used in the 'Why Choose Us' section.",
+        "Both images are served from frontend/public/assets/generated.",
+        "Images load correctly and do not cause layout shifts."
+      ]
+    }
+  ],
+  "constraints": [
+    "Preserve the existing teal and cream brand color palette.",
+    "Do not remove either phone number; both must remain accessible as tel: links.",
+    "Do not modify files in frontend/src/hooks/ or frontend/src/components/ui.",
+    "Keep all backend files unchanged — no backend logic is required for this request."
+  ],
+  "nonGoals": [
+    "Adding an online booking or reservation system.",
+    "Adding a contact form with backend submission.",
+    "Changing the company name or branding identity.",
+    "Adding Internet Identity authentication.",
+    "Any backend data storage or API endpoints."
+  ],
+  "imageRequirements": {
+    "required": [
+      "Premium professional cleaning team at work in a bright modern interior, warm natural light, teal accents (hero-bg.dim_1440x600.png)",
+      "Subtle light abstract geometric texture with soft teal and cream tones, clean and minimal (why-choose-us-bg.dim_1440x400.png)"
+    ],
+    "edits": [
+      "Enhance vibrancy and contrast, sharpen details (hero-bg.dim_1440x600.png > hero-bg.dim_1440x600.png)",
+      "Slightly brighten and add a soft warm overlay (services-bg.dim_1440x400.png > services-bg.dim_1440x400.png)"
+    ]
+  }
+}

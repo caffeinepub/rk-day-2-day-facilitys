@@ -1,0 +1,96 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-26T17:42:10.180Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 3,
+    "implemented": 3,
+    "items": [
+      {
+        "id": "REQ-6",
+        "summary": "Add the second phone number '7358440081' alongside the existing '99624 42558' in the Contact section and Footer. Both numbers must be displayed as tappable tel: links on mobile devices.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Contact.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/components/Services.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Contact.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/components/Services.tsx"
+        ]
+      },
+      {
+        "id": "REQ-7",
+        "summary": "Redesign the website to an advanced, premium-quality professional level. Enhancements should include: a richer hero section with animated text or subtle motion effects, an enhanced services section with detailed feature bullet lists and a call-to-action per service card, a 'Why Choose Us' or trust-building section highlighting reliability, experience, and quality guarantees, improved typography hierarchy using the existing font configuration, polished hover and transition animations throughout, and a more visually compelling overall layout while preserving the teal/cream brand palette.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Hero.tsx",
+          "frontend/src/components/ServiceCard.tsx",
+          "frontend/src/components/Services.tsx",
+          "frontend/src/components/WhyChooseUs.tsx",
+          "frontend/src/App.tsx",
+          "frontend/src/components/Header.tsx",
+          "frontend/src/components/Contact.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/index.css",
+          "frontend/tailwind.config.js"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Hero.tsx",
+          "frontend/src/components/ServiceCard.tsx",
+          "frontend/src/components/Services.tsx",
+          "frontend/src/components/WhyChooseUs.tsx",
+          "frontend/src/App.tsx",
+          "frontend/src/components/Header.tsx",
+          "frontend/src/components/Contact.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/index.css",
+          "frontend/tailwind.config.js"
+        ]
+      },
+      {
+        "id": "REQ-8",
+        "summary": "Update the hero background image to a more vivid, high-quality professional cleaning environment scene that better reflects a premium brand, and generate a 'Why Choose Us' section background image with a subtle, clean texture or abstract light pattern.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Hero.tsx",
+          "frontend/src/components/WhyChooseUs.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Hero.tsx",
+          "frontend/src/components/WhyChooseUs.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/hero-bg.dim_1440x600.png",
+    "frontend/public/assets/generated/services-bg.dim_1440x400.png",
+    "frontend/public/assets/generated/why-choose-us-bg.dim_1440x400.png",
+    "frontend/src/App.tsx",
+    "frontend/src/components/Contact.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Header.tsx",
+    "frontend/src/components/Hero.tsx",
+    "frontend/src/components/ServiceCard.tsx",
+    "frontend/src/components/Services.tsx",
+    "frontend/src/components/WhyChooseUs.tsx",
+    "frontend/src/index.css",
+    "frontend/tailwind.config.js",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

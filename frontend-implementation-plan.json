@@ -1,0 +1,121 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Upgrade to advanced professional website with second phone number and enhanced design",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "summary": "Add second phone number '7358440081' alongside existing '99624 42558' in Contact section and Footer as tappable tel: links",
+      "acceptanceCriteria": [
+        "Both phone numbers '99624 42558' and '7358440081' are visible in the Contact section.",
+        "Both numbers are rendered as <a href='tel:...'> links so they initiate a call on mobile.",
+        "Both numbers are also visible in the Footer.",
+        "Existing design and layout are not broken by adding the second number."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Contact.tsx",
+          "operation": "modify",
+          "description": "Add the second phone number '7358440081' next to the existing '99624 42558' in the contact display. Wrap both numbers in separate tel: links with appropriate styling to maintain visual hierarchy. Ensure both numbers are clearly visible and tappable on mobile devices."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Add the second phone number '7358440081' in the Footer contact section alongside the existing '99624 42558'. Both numbers must be rendered as tel: links. Update the layout to accommodate both numbers without breaking the existing footer design."
+        },
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "modify",
+          "description": "Update the call-to-action phone link in the Services section to display both phone numbers '99624 42558' and '7358440081' as clickable tel: links, ensuring consistency across all sections."
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Redesign website to advanced professional level with enhanced hero, detailed service cards, trust-building section, improved typography, and polished animations",
+      "acceptanceCriteria": [
+        "Hero section includes animated or visually engaging text/motion effects.",
+        "Each service card displays a bullet list of features and a contact/CTA link.",
+        "A new trust/why-choose-us section is added between Services and Contact.",
+        "All interactive elements (buttons, cards, nav links) have smooth hover and transition animations.",
+        "Typography hierarchy is clear with distinct heading, subheading, and body styles.",
+        "The teal and cream brand palette is preserved and consistently applied.",
+        "The page remains fully responsive on mobile and desktop viewports."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Enhance the hero section with animated text effects (fade-in, slide-up, or typewriter animations using Tailwind animation utilities). Add subtle motion effects to the tagline and CTA buttons. Improve the visual hierarchy with larger, more dramatic headings and a more compelling layout while preserving the teal/cream brand palette."
+        },
+        {
+          "path": "frontend/src/components/ServiceCard.tsx",
+          "operation": "modify",
+          "description": "Enhance ServiceCard to display a more detailed bullet list of features for each service. Add a prominent contact/CTA button or link at the bottom of each card with the phone numbers. Implement smooth hover animations (scale, shadow, or color transitions) to create a premium feel. Ensure the card design is visually compelling and professional."
+        },
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "modify",
+          "description": "Update the Services section to pass enhanced feature lists to each ServiceCard. Improve the section header typography and add more visual polish. Ensure the call-to-action is prominent and includes both phone numbers as tel: links."
+        },
+        {
+          "path": "frontend/src/components/WhyChooseUs.tsx",
+          "operation": "create",
+          "description": "Create a new 'Why Choose Us' trust-building section component that highlights reliability, experience, and quality guarantees. Use the generated background image from frontend/public/assets/generated/why-choose-us-bg.dim_1440x400.png. Include animated icons or cards showcasing key differentiators (years of experience, certified professionals, satisfaction guarantee, etc.). Implement smooth hover and entrance animations. Maintain the teal and cream brand palette and ensure full responsiveness."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Wire the new WhyChooseUs component into the layout between the Services and Contact sections. Import and render the component in the correct position to create a logical flow from services to trust-building to contact."
+        },
+        {
+          "path": "frontend/src/components/Header.tsx",
+          "operation": "modify",
+          "description": "Enhance the Header navigation with smooth hover animations and transitions on links. Improve the mobile menu animation and interactions. Ensure the scroll-aware background transition is polished and professional. Maintain the existing smooth-scroll functionality."
+        },
+        {
+          "path": "frontend/src/components/Contact.tsx",
+          "operation": "modify",
+          "description": "Enhance the Contact section with improved typography hierarchy, polished animations on the info cards, and more visually compelling layout. Add smooth hover effects to interactive elements. Ensure both phone numbers are prominently displayed with professional styling."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Enhance the Footer with improved typography, smooth hover animations on links, and a more polished overall design. Ensure quick links and service tags have subtle transition effects. Maintain the existing smooth-scroll functionality and add both phone numbers as tel: links."
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Enhance the global stylesheet with improved typography hierarchy using the existing Inter and Playfair Display fonts. Add utility classes for consistent heading, subheading, and body text styles. Define smooth transition and animation utilities that can be reused across components. Ensure the teal and cream color palette custom properties are consistently applied throughout."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Extend the Tailwind configuration with additional animation keyframes for text effects, entrance animations, and hover transitions. Add custom timing functions for smooth, professional animations. Ensure the custom teal and cream color palettes are preserved and easily accessible for all components."
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Update hero background to premium cleaning scene and add Why Choose Us section background image",
+      "acceptanceCriteria": [
+        "The hero background image is replaced with the new premium version.",
+        "A background image is used in the 'Why Choose Us' section.",
+        "Both images are served from frontend/public/assets/generated.",
+        "Images load correctly and do not cause layout shifts."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Replace the existing hero background image with the new premium version from frontend/public/assets/generated/hero-bg.dim_1440x600.png. Ensure the image loads correctly, maintains aspect ratio, and does not cause layout shifts. Verify the gradient overlay still works effectively with the new image."
+        },
+        {
+          "path": "frontend/src/components/WhyChooseUs.tsx",
+          "operation": "modify",
+          "description": "Integrate the background image from frontend/public/assets/generated/why-choose-us-bg.dim_1440x400.png into the Why Choose Us section. Apply it as a background with appropriate sizing, positioning, and overlay to ensure text readability while maintaining the premium aesthetic. Ensure no layout shifts occur during image loading."
+        }
+      ]
+    }
+  ]
+}

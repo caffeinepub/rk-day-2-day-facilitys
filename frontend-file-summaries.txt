@@ -1,0 +1,12 @@
+{
+  "frontend/src/index.css": "Global stylesheet with OKLCH color system, Google Fonts import, component utility classes (section-badge, btn-primary, card-glass), and animation keyframes (fadeUp, fadeIn, pulse-slow).",
+  "frontend/tailwind.config.js": "Extended Tailwind config with full teal/cream OKLCH palettes, Inter/Playfair Display fonts, custom shadows, and animation keyframes for fade-up, fade-in, slide-in-right, scale-in, and shimmer effects.",
+  "frontend/src/App.tsx": "Root app component that composes Header, Hero, Services, WhyChooseUs, Contact, and Footer into a single-page layout with the new WhyChooseUs section inserted between Services and Contact.",
+  "frontend/src/components/Header.tsx": "Sticky header with animated mobile menu (smooth max-height transition), both phone numbers in mobile menu as tappable tel: links, enhanced hover underline animations on nav links, and a \"Why Us\" nav item linking to the new section.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero with the premium background image, animated rotating tagline (fade transition between phrases), gradient text company name, both phone numbers as tappable tel: links with hover effects, and staggered fade-up entrance animations.",
+  "frontend/src/components/ServiceCard.tsx": "Enhanced service card with top accent bar, Popular badge, feature bullet list, and dual phone number CTA links — fixed deprecated flex-shrink-0 replaced with shrink-0 per Tailwind v3.",
+  "frontend/src/components/Services.tsx": "Services section with updated feature lists (5 items each), decorative divider, and dual phone number CTAs at the bottom as tappable tel: links.",
+  "frontend/src/components/Contact.tsx": "Dark teal contact section displaying both phone numbers (99624 42558 and 7358440081) as prominent tappable tel: links — fixed conflicting transition-colors/transition-transform classes replaced with transition-all on the icon wrapper divs.",
+  "frontend/src/components/Footer.tsx": "Footer with both phone numbers listed as tel: links with Primary/Alternate labels, updated quick links including \"Why Choose Us\", service tags, animated link hover effects, copyright, and caffeine.ai attribution.",
+  "frontend/src/components/WhyChooseUs.tsx": "Trust-building \"Why Choose Us\" section with background image, stats row, six reason cards with icons and hover animations, and dual phone number CTAs — fixed the Unicode star character replaced with \"5-Star\" text and escaped apostrophes/dashes as HTML entities."
+}

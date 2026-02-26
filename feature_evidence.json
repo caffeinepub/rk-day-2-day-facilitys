@@ -1,0 +1,71 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-the-second-phone-number-7358440081-alongside-the-existing-99624-42558-in-the-contact-section-and-footer-both-numbers-must-be-displayed-as-tappable-tel-links-on-mobile-devices",
+      "featureTitle": "Add the second phone number '7358440081' alongside the existing '99624 42558' in the Contact section and Footer. Both numbers must be displayed as tappable tel: links on mobile devices.",
+      "files": [
+        "frontend/src/components/Contact.tsx",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/Services.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-redesign-the-website-to-an-advanced-premium-quality-professional-level-enhancements-should-include-a-richer-hero-section-with-animated-text-or-subtle-motion-effects-an-enhanced-services-section-with-detailed-feature-bullet-lists-and-a-call-to-action-per-service-card-a-why-choose-us-or-trust-building-section-highlighting-reliability-experience-and-quality-guarantees-improved-typography-hierarchy-using-the-existing-font-configuration-polished-hover-and-transition-animations-throughout-and-a-more-visually-compelling-overall-layout-while-preserving-the-teal-cream-brand-palette",
+      "featureTitle": "Redesign the website to an advanced, premium-quality professional level. Enhancements should include: a richer hero section with animated text or subtle motion effects, an enhanced services section with detailed feature bullet lists and a call-to-action per service card, a 'Why Choose Us' or trust-building section highlighting reliability, experience, and quality guarantees, improved typography hierarchy using the existing font configuration, polished hover and transition animations throughout, and a more visually compelling overall layout while preserving the teal/cream brand palette.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Contact.tsx",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/Header.tsx",
+        "frontend/src/components/Hero.tsx",
+        "frontend/src/components/ServiceCard.tsx",
+        "frontend/src/components/Services.tsx",
+        "frontend/src/components/WhyChooseUs.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-hero-background-image-to-a-more-vivid-high-quality-professional-cleaning-environment-scene-that-better-reflects-a-premium-brand-and-generate-a-why-choose-us-section-background-image-with-a-subtle-clean-texture-or-abstract-light-pattern",
+      "featureTitle": "Update the hero background image to a more vivid, high-quality professional cleaning environment scene that better reflects a premium brand, and generate a 'Why Choose Us' section background image with a subtle, clean texture or abstract light pattern.",
+      "files": [
+        "frontend/src/components/Hero.tsx",
+        "frontend/src/components/WhyChooseUs.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Website for RK Day 2 Day Facilitys — a cleaning and facilities service offering housekeeping, deep cleaning, and grouting services. Contact numbers: 99624 42558 and 7358440081.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Premium professional cleaning team at work in a bright modern interior, warm natural light, teal accents (hero-bg.dim_1440x600.png)\n- Subtle light abstract geometric texture with soft teal and cream tones, clean and minimal (why-choose-us-bg.dim_1440x400.png)\n\n## Edit Images\n- Enhance vibrancy and contrast, sharpen details (hero-bg.dim_1440x600.png > hero-bg.dim_1440x600.png)\n- Slightly brighten and add a soft warm overlay (services-bg.dim_1440x400.png > services-bg.dim_1440x400.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-homepage-with-the-company-name-rk-day-2-day-facilitys-a-compelling-tagline-about-professional-cleaning-and-facility-services-and-a-prominent-hero-section-with-a-call-to-action-button-linking-to-the-contact-section",
+      "title": "Create a homepage with the company name 'RK Day 2 Day Facilitys', a compelling tagline about professional cleaning and facility services, and a prominent hero section with a call-to-action button linking to the contact section.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-section-that-clearly-lists-and-describes-the-three-offered-services-housekeeping-deep-cleaning-and-grouting-service-each-service-should-have-an-icon-a-title-and-a-short-description",
+      "title": "Create a Services section that clearly lists and describes the three offered services: Housekeeping, Deep Cleaning, and Grouting Service. Each service should have an icon, a title, and a short description.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-displaying-the-phone-number-99624-42558-with-a-prominent-call-us-button-that-initiates-a-phone-call-on-mobile-devices-include-a-friendly-call-to-action-message-encouraging-users-to-get-in-touch",
+      "title": "Create a Contact section displaying the phone number '99624 42558' with a prominent 'Call Us' button that initiates a phone call on mobile devices. Include a friendly call-to-action message encouraging users to get in touch.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-clean-professional-visual-theme-using-warm-neutral-tones-e-g-whites-soft-creams-and-teal-green-accents-to-evoke-cleanliness-and-trustworthiness-use-a-modern-sans-serif-typography-card-based-layout-for-services-smooth-scroll-navigation-and-a-sticky-header-with-the-company-name-and-navigation-links",
+      "title": "Apply a clean, professional visual theme using warm neutral tones (e.g., whites, soft creams, and teal/green accents) to evoke cleanliness and trustworthiness. Use a modern sans-serif typography, card-based layout for services, smooth scroll navigation, and a sticky header with the company name and navigation links.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-generated-hero-background-image-and-service-section-background-as-static-assets-in-the-frontend-use-the-generated-images-hero-bg-dim-1440x600-png-services-bg-dim-1440x400-png-placed-in-frontend-public-assets-generated",
+      "title": "Render the generated hero background image and service section background as static assets in the frontend. Use the generated images (hero-bg.dim_1440x600.png, services-bg.dim_1440x400.png) placed in frontend/public/assets/generated.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-second-phone-number-7358440081-alongside-the-existing-99624-42558-in-the-contact-section-and-footer-both-numbers-must-be-displayed-as-tappable-tel-links-on-mobile-devices",
+      "title": "Add the second phone number '7358440081' alongside the existing '99624 42558' in the Contact section and Footer. Both numbers must be displayed as tappable tel: links on mobile devices.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-redesign-the-website-to-an-advanced-premium-quality-professional-level-enhancements-should-include-a-richer-hero-section-with-animated-text-or-subtle-motion-effects-an-enhanced-services-section-with-detailed-feature-bullet-lists-and-a-call-to-action-per-service-card-a-why-choose-us-or-trust-building-section-highlighting-reliability-experience-and-quality-guarantees-improved-typography-hierarchy-using-the-existing-font-configuration-polished-hover-and-transition-animations-throughout-and-a-more-visually-compelling-overall-layout-while-preserving-the-teal-cream-brand-palette",
+      "title": "Redesign the website to an advanced, premium-quality professional level. Enhancements should include: a richer hero section with animated text or subtle motion effects, an enhanced services section with detailed feature bullet lists and a call-to-action per service card, a 'Why Choose Us' or trust-building section highlighting reliability, experience, and quality guarantees, improved typography hierarchy using the existing font configuration, polished hover and transition animations throughout, and a more visually compelling overall layout while preserving the teal/cream brand palette.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-hero-background-image-to-a-more-vivid-high-quality-professional-cleaning-environment-scene-that-better-reflects-a-premium-brand-and-generate-a-why-choose-us-section-background-image-with-a-subtle-clean-texture-or-abstract-light-pattern",
+      "title": "Update the hero background image to a more vivid, high-quality professional cleaning environment scene that better reflects a premium brand, and generate a 'Why Choose Us' section background image with a subtle, clean texture or abstract light pattern.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Homepage with company name, tagline, and hero section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Services section listing housekeeping, deep cleaning, and grouting services",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Contact section displaying phone number 99624 42558",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add second contact number 7358440081 alongside existing number 99624 42558",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Rebuild as a professional advanced website with enhanced design and features",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "RK Day 2 Day Facilitys",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
